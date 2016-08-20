@@ -280,6 +280,7 @@ python-bson:
   fedora: [python-bson]
   ubuntu: [python-bson]
 python-cairo:
+  arch: [python2-cairo]
   debian: [python-cairo]
   fedora: [pycairo]
   ubuntu:
@@ -420,6 +421,7 @@ python-couchdb:
     saucy: [python-couchdb]
     trusty: [python-couchdb]
 python-coverage:
+  arch: [python2-coverage]
   debian: [python-coverage]
   fedora: [python-coverage]
   gentoo: [dev-python/coverage]
@@ -1446,6 +1448,7 @@ python-pygps-pip:
 python-pygraph:
   ubuntu: [python-pygraph]
 python-pygraphviz:
+  arch: [python2-pygraphviz]
   debian: [python-pygraphviz]
   fedora: [graphviz-python]
   osx:
@@ -1712,6 +1715,7 @@ python-qt4-gl:
     apt:
       packages: [python-qt4-gl]
 python-qt5-bindings:
+  arch: [python2-pyqt5]
   debian:
     jessie: [pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-sip-dev, qtbase5-dev]
   fedora: [python-qt5, sip]
@@ -1720,6 +1724,7 @@ python-qt5-bindings:
     wily: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
     xenial: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
 python-qt5-bindings-gl:
+  arch: [python2-pyqt5]
   debian:
     jessie: [python-pyqt5.qtopengl]
   fedora: [python-qt5]
@@ -1808,6 +1813,7 @@ python-responses-pip:
     pip:
       packages: [responses]
 python-rosdep:
+  arch: [python2-rosdep]
   debian: [python-rosdep]
   fedora: [python-rosdep]
   gentoo: [dev-util/rosdep]
