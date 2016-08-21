@@ -3121,6 +3121,8 @@ omniorb:
   fedora: [omniORB, omniORB-devel, omniORB-servers]
   macports: [omniORB]
   ubuntu: [omniorb, omniidl, omniorb-idl, omniorb-nameserver, libomniorb4-dev]
+opencv3:
+  arch: [opencv]
 opende:
   arch: [ode]
   fedora: [ode]
