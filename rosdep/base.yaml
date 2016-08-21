@@ -647,7 +647,7 @@ eclipse:
     quantal: [eclipse, eclipse-platform, eclipse-rcp, eclipse-emf, eclipse-xsd, eclipse-pde]
     raring: [eclipse, eclipse-platform, eclipse-rcp, eclipse-emf, eclipse-xsd, eclipse-pde]
 eigen:
-  arch: [eigen3]
+  arch: [eigen]
   debian:
     jessie: [libeigen3-dev]
     sid: [libeigen3-dev]
@@ -670,6 +670,7 @@ eigen2:
     apt:
       packages: [libeigen2-dev]
 eigen3:
+  arch: [eigen]
   fedora: [eigen3-devel]
   gentoo:
     portage:
